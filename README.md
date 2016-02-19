@@ -1,6 +1,8 @@
 ﻿# Hyper-Picker
 Generic picker control for HTML5 and JavaScript® with optional TypeScript support
 
+* Provides customizable popup support for input elements.
+
 ## Picker component
 
 * JavaScript: <code>DlhSoft.Data.Picker.HTML.Controls.js</code>
