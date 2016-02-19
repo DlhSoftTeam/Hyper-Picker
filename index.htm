@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Picker Sample</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <!-- Component assemblies. -->
+    <script src="DlhSoft.Data.Picker.HTML.Controls.js"></script>
+    <!-- Sample code: app.ts. -->
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>Picker Sample</h1>
+    <p>Components designed and developed by <a href="http://DlhSoft.com" target="_blank">DlhSoft</a></p>
+    <div class="Area">
+        Picker:
+        <!-- Component placeholder. -->
+        <input id="picker" style="width: 128px"/>
+        <!-- Popup content retrieved and mapped to the Picker component in code behind at initialization time. -->
+        <div id="pickerPopup" style="padding: 8px; background-color: lightyellow">
+            <div style="font-weight: bold">Popup</div>
+            <div>Click the button to update input value and close this popup.</div>
+            <div style="margin-top: 4px">
+                <button id="updateValueButton">Update value</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
